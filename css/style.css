@@ -1,0 +1,97 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	background-color: #DEDEDE;
+}
+
+/**************************   Расположение контейнеров и стили   ********************************/
+
+.container{
+	margin: 0 auto; 
+	min-width: 1000px;
+	max-width: 1260px; 
+	background-color: #FFFFFF;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.header{
+	background-color: #EBEBEB;
+	margin-bottom: 20px;
+	height: 200px;
+}
+.aside{
+	background-color: #EBEBEB;
+}
+.maincontent{
+	background-color: #FFFFFF;
+	padding-left: 20px;
+}
+.promotion{
+	background-color: #EBEBEB;
+}
+.events{
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.performers{
+	background-color: #FFFFFF;
+}
+.performer{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.rightbar{
+	background-color: #EBEBEB;
+	height: 100%
+}
+
+.row {
+  overflow: hidden; 
+}
+
+[class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+/********************   Стили текста   *****************************/
+.green{
+	color: #009603;
+}
+.red{
+	color: #FF0000;
+}
+.grey{
+	color: #8C8C8C;
+}
+.blue{
+	color: #22BF9B;
+}
+.violet{
+	color: #B469BD;
+}
+.bold{
+	font-weight: bold;
+}
+/********************  Расположение и стиль других элементов  ******************************/
+img{
+	vertical-align: middle;
+}
+a{
+	color: #B469BD;
+}
+p,h1{
+	padding-left: 10px;
+}
+.mark{
+	height: 50%;
+}
+
+/***************************  Special background  *************************************/
+.lightbej{
+	background-color: #FFFBED;
+}
+.darkbej{
+	background-color: #FCF6E1;
+}
